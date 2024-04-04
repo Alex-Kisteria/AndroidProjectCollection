@@ -39,7 +39,44 @@
     <string name="btnMultiply">*</string>
     <string name="btnPoint">.</string>
     <string name="btnAns">=</string>
-    <string name="tvTopText"></string>
+    <string name="tvTopText"> </string>
     <string name="tvBottomText">0</string>
+
+
+    <string name="btnMatch3">Match 3</string>
+
+    <string name="r1c1"> </string>
+    <string name="r1c2"> </string>
+    <string name="r1c3"> </string>
+    <string name="r1c4"> </string>
+    <string name="r1c5"> </string>
+
+    <string name="r2c1"> </string>
+    <string name="r2c2"> </string>
+    <string name="r2c3"> </string>
+    <string name="r2c4"> </string>
+    <string name="r2c5"> </string>
+
+    <string name="r3c1"> </string>
+    <string name="r3c2"> </string>
+    <string name="r3c3"> </string>
+    <string name="r3c4"> </string>
+    <string name="r3c5"> </string>
+
+    <string name="r4c1"> </string>
+    <string name="r4c2"> </string>
+    <string name="r4c3"> </string>
+    <string name="r4c4"> </string>
+    <string name="r4c5"> </string>
+
+    <string name="r5c1"> </string>
+    <string name="r5c2"> </string>
+    <string name="r5c3"> </string>
+    <string name="r5c4"> </string>
+    <string name="r5c5"> </string>
+
+    <string name="btnRestart_m3"> Restart </string>
+    <string name="btnReturn_m3"> Back to Main</string>
+
 
 </resources>

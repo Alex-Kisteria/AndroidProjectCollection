@@ -28,8 +28,6 @@ public class ButtonExercise extends AppCompatActivity {
 
 
 
-
-
         btnOpenEmptyActivity = (Button) findViewById(R.id.btnOpenEmptyActivity);
         btnOpenEmptyActivity.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,6 +37,9 @@ public class ButtonExercise extends AppCompatActivity {
                 finish();
             }
         });
+
+
+        // TOAST
 
         btnToast = (Button) findViewById(R.id.btnToast);
         btnToast.setOnClickListener(new View.OnClickListener() {
@@ -52,6 +53,8 @@ public class ButtonExercise extends AppCompatActivity {
             }
         });
 
+        //CHANGE BACKGROUND
+
         btnChangeBg = (Button) findViewById(R.id.btnChangeBg);
         btnChangeBg.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,6 +67,9 @@ public class ButtonExercise extends AppCompatActivity {
                 isBackgroundChanged = !isBackgroundChanged;
             }
         });
+
+
+        //CHANGE BUTTON COLOR
 
         btnChangeButtonBg = (Button) findViewById(R.id.btnChangeButtonBg);
         btnChangeButtonBg.setOnClickListener(new View.OnClickListener() {
@@ -79,6 +85,8 @@ public class ButtonExercise extends AppCompatActivity {
             }
         });
 
+
+        // DISAPPEAR BUTTON
         btnDisappear = (Button) findViewById(R.id.btnDisappear);
         btnDisappear.setOnClickListener(new View.OnClickListener() {
             @Override

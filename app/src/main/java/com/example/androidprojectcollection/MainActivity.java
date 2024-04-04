@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnButtonExercise;
     Button btnCalculator;
 
+    Button btnMatch3;
+
 
 
     @Override
@@ -54,6 +56,16 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         }));
+
+        btnMatch3 = (Button) findViewById(R.id.btnMatch3);
+        btnMatch3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent4 = new Intent(MainActivity.this, match3.class);
+                startActivity(intent4);
+                finish();
+            }
+        });
 
 
 

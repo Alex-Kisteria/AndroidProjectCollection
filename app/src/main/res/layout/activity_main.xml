@@ -21,26 +21,25 @@
 
     <Button
         android:id="@+id/btnCalculator"
-        android:layout_width="152dp"
-        android:layout_height="49dp"
+        android:layout_width="173dp"
+        android:layout_height="48dp"
         android:layout_marginStart="120dp"
-        android:layout_marginEnd="159dp"
+        android:layout_marginEnd="118dp"
         android:text="@string/btnCalculator"
-        app:layout_constraintBottom_toTopOf="@+id/btn3"
+        app:layout_constraintBottom_toTopOf="@+id/btnMatch3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnButtonExercise" />
 
     <Button
-        android:id="@+id/btn3"
+        android:id="@+id/btnMatch3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="158dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="159dp"
         android:layout_marginBottom="266dp"
-        android:text="@string/button3"
+        android:text="@string/btnMatch3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
