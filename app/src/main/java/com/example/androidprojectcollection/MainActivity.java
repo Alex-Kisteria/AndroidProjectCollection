@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnCalculator;
 
     Button btnMatch3;
+    Button btnMenu;
 
 
 
@@ -63,6 +64,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent4 = new Intent(MainActivity.this, match3.class);
                 startActivity(intent4);
+                finish();
+            }
+        });
+
+
+        btnMenu = (Button) findViewById(R.id.btnmain_menus);
+        btnMenu.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public  void onClick(View view) {
+                Intent intent7 = new Intent(MainActivity.this, MenuExercise.class);
+                startActivity(intent7);
                 finish();
             }
         });

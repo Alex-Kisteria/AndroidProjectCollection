@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuExercise">
+
+    <Button
+        android:id="@+id/btnTransformingButton"
+        android:layout_width="227dp"
+        android:layout_height="238dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="291dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="291dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/menuTextView"
+        android:layout_width="124dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="350dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -78,5 +78,16 @@
     <string name="btnRestart_m3"> Restart </string>
     <string name="btnReturn_m3"> Back to Main</string>
 
+    <string name="midterm">Midterm</string>
+    <string name="passIntent">Passing Intents</string>
+    <string name="fragments">Fragments</string>
+    <string name="menus">Menus</string>
+
+
+
+    <string name="mItemChange">Change</string>
+    <string name="item">Item</string>
+    <string name="mItemReset">Reset</string>
+    <string name="mItemExit">Exit</string>
 
 </resources>

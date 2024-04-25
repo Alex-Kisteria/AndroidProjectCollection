@@ -32,34 +32,35 @@ public class match3 extends AppCompatActivity {
             }
         }
 
-       private int getRandomColor(){
-            Random random = new Random();
-            for (Button[] rowButtons : buttonArray) {
-                for (Button button : rowButtons) {
-                    int color = Color.rgb(random.nextInt(256), random.nextInt(256), random.nextInt(256));
-                    button.setBackgroundColor(color);
-                }
-            }
-        }
+//       private int getRandomColor(){
+//            Random random = new Random();
+//            for (Button[] rowButtons : buttonArray) {
+//                for (Button button : rowButtons) {
+//                    int color = Color.rgb(random.nextInt(256), random.nextInt(256), random.nextInt(256));
+//                    button.setBackgroundColor(color);
+//                }
+//            }
+//        }
 
-        private void swapColorsWithAdjacentButtons(Button clickedButton) {
+        //private void swapColorsWithAdjacentButtons(Button clickedButton) {
             // Implement logic to find adjacent buttons (based on row and column)
             // Swap colors with those buttons
-        }
+      //  }
 
-        for (Button button: btnArray) {
-            button.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    int newColor = getRandomColor();
-
-                    button.setBackgroundColor(newColor);
-
-                    swapColorsWithAdjacentButtons(button);
-                }
-            });
-            
-        }
+//        Button[] btnArray;
+//        for (Button button: btnArray) {
+//            button.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View view) {
+//                    int newColor = getRandomColor();
+//
+//                    button.setBackgroundColor(newColor);
+//
+//                    swapColorsWithAdjacentButtons(button);
+//                }
+//            });
+//
+//        }
 
 
 
