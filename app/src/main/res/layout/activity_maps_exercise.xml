@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBEFC2"
+    tools:context=".MapsExercise">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="687dp"
+        android:layout_height="1023dp"
+        app:srcCompat="@drawable/pulagg"
+        tools:layout_editor_absoluteX="-273dp"
+        tools:layout_editor_absoluteY="-194dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Charlie's Cup"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/ibcharliescup"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/charliescup" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Mind Museum"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/ibMind"
+            android:layout_width="213dp"
+            android:layout_height="127dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/mindmind" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leopoldskron Palace Meierhof"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/ibLeophold"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/leopoldskron" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mt. Pulag"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/ibPulag"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/mtpulag" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LegoLand Malaysia"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/ibLego"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="0dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/legooo" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

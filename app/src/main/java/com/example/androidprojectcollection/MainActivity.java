@@ -3,6 +3,7 @@ package com.example.androidprojectcollection;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button btnMatch3;
     Button btnMenu;
+    Button btnOpeningMaps;
 
 
 
@@ -75,6 +77,16 @@ public class MainActivity extends AppCompatActivity {
             public  void onClick(View view) {
                 Intent intent7 = new Intent(MainActivity.this, MenuExercise.class);
                 startActivity(intent7);
+                finish();
+            }
+        });
+
+        btnOpeningMaps = (Button) findViewById(R.id.btnOpeningMaps);
+        btnOpeningMaps.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent8 = new Intent(MainActivity.this, MapsExercise.class);
+                startActivity(intent8);
                 finish();
             }
         });

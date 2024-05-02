@@ -79,6 +79,12 @@
             android:layout_height="wrap_content"
             android:text="@string/menus" />
 
+        <Button
+            android:id="@+id/btnOpeningMaps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opening Maps" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
